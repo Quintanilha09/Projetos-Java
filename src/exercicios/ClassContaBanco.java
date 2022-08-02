@@ -8,9 +8,6 @@ public class ClassContaBanco {
 
 
     //MÉTODOS ESPECIAIS
-    public void ClassContaBanco() {
-        saldo = 0; 
-    }
 
     public void setNumConta(int n) {
         this.numConta = n;
@@ -53,7 +50,17 @@ public class ClassContaBanco {
     }
 
     public void abrirConta(String t) {
-        
+        if (t == "CC") {
+            this.saldo = 50;
+            this.tipo = "Conta Corrente";
+            System.out.println("Você ganhou R$" + this.saldo +  " por ter aberto uma conta poupança ");
+        } else {
+            if (t == "CP") {
+                this.saldo = 150;
+                this.tipo = "Conta Poupança ";
+                System.out.println("Você ganhou R$" + this.saldo + " por ter aberto uma conta corrente");
+            }
+        }
     }
 
     public void fecharConta() {
