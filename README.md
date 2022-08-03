@@ -1,1 +1,1 @@
-# Abra a pasta src e vá para "Exercicios"
+# Abra a pasta "src" e vá para "Exercicios"
