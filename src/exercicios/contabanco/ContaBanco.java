@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios.contabanco;
 
 public class ContaBanco {
 

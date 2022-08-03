@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios.guitarra;
 
 public class ClassGuitarra {
     public String cordas;

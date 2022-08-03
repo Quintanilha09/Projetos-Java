@@ -1,6 +1,4 @@
-package exercicios;
-
-import javax.lang.model.type.NullType;
+package exercicios.contabanco;
 
 public class ClassContaBanco {
     public int numConta;

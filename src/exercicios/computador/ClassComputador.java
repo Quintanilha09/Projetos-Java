@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios.computador;
 
 public class ClassComputador {
     private String modelo;

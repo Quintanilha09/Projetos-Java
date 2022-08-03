@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios.piano;
 
 public class Piano {
     public static void main(String[] args) {
