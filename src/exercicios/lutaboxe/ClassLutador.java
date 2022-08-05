@@ -19,8 +19,8 @@ public class ClassLutador {
         this.setNacionalidade(nation);
         this.setIdade(age);
         this.setPeso(weight);
-        this.setVitorias(defeats);
-        this.setDerrotas(victory);
+        this.setVitorias(victory);
+        this.setDerrotas(defeats);
         this.setEmpates(tie);
         this.apresentar();
 
@@ -103,7 +103,7 @@ public class ClassLutador {
     }
 
     public void setDerrotas(int defeats) {
-        this.vitorias = defeats;
+        this.derrotas = defeats;
     }
 
     public int getDerrotas() {
@@ -132,14 +132,16 @@ public class ClassLutador {
         System.out.println("Vitórias: " + this.getVitorias());
         System.out.println("Derrotas: " + this.getDerrotas());
         System.out.println("Empates: " + this.getEmpates());
-        System.out.println("\n\n");
+        System.out.println("");
 
     }
 
     public void status() {
+        System.out.println("Status atualizado depois de luta de hoje:");
         System.out.println("Ganhou " + this.getVitorias() + " lutas");
         System.out.println("Perdeu " + this.getDerrotas() + " lutas");
         System.out.println("Empatou " + this.getEmpates() + " lutas");
+        System.out.println("\n\n");
     }
 
     public void ganharLuta() {
