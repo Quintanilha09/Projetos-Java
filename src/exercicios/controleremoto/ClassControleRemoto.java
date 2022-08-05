@@ -56,8 +56,9 @@ public class ClassControleRemoto implements InterfaceControle {
         System.out.println("Volume: " + this.getVolume());
 
         for (int i = 1; i <= this.getVolume(); i+= 10) {
-            System.out.println("-");
+            System.out.print("I");
         }
+        System.out.println();
     }
 
     @Override
