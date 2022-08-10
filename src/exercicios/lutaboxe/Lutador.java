@@ -20,8 +20,20 @@ public class Lutador {
         lutador[3].empatarLuta();
         lutador[3].status();
 
-        lutador[4] = new ClassLutador("Ching-Chong", "Japão", 33, 1.75f, 60.1f, 0, 41, 2); 
+        lutador[4] = new ClassLutador("Ching-Chong", "Japão", 33, 1.75f, 80.1f, 0, 41, 2); 
         lutador[4].ganharLuta();
         lutador[4].status();
+
+        ClassLuta UFC01 = new ClassLuta();
+        UFC01.marcarLuta(lutador[3], lutador[1]);
+        UFC01.lutar();
+
+        ClassLuta UFC02 = new ClassLuta();
+        UFC02.marcarLuta(lutador[2], lutador[4]);
+        UFC01.lutar();
+
+        ClassLuta UFC03 = new ClassLuta();
+        UFC03.marcarLuta(lutador[0], lutador[4]);
+        UFC03.lutar();
     }
 }
