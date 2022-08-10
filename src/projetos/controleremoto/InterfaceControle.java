@@ -1,4 +1,4 @@
-package exercicios.controleremoto;
+package projetos.controleremoto;
 
 public interface InterfaceControle {
     public abstract void ligar();

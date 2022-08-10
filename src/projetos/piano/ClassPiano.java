@@ -1,4 +1,4 @@
-package exercicios.piano;
+package projetos.piano;
 
 public class ClassPiano {
     public String marca;

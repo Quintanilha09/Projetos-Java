@@ -1,4 +1,4 @@
-package exercicios.caneta;
+package projetos.caneta;
 
 public class Caneta {
     public static void main(String[] args) {

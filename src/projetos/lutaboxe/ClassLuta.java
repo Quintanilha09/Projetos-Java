@@ -1,4 +1,4 @@
-package exercicios.lutaboxe;
+package projetos.lutaboxe;
 
 import java.util.Random;
 

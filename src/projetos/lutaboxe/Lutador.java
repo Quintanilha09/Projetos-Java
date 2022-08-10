@@ -1,4 +1,4 @@
-package exercicios.lutaboxe;
+package projetos.lutaboxe;
 
 public class Lutador {
     public static void main(String[] args) {

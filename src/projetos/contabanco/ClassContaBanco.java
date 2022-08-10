@@ -1,4 +1,4 @@
-package exercicios.contabanco;
+package projetos.contabanco;
 
 public class ClassContaBanco {
     public int numConta;
