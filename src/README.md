@@ -1,1 +1,1 @@
-# Clique em "projetos"
+# Vá em "projetos"
