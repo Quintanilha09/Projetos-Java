@@ -1,4 +1,5 @@
-package projetos.controleremoto;
+package controleremoto;
+
 
 public interface InterfaceControle {
     public abstract void ligar();

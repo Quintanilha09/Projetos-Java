@@ -1,4 +1,4 @@
-package projetos.luta;
+package luta;
 
 import java.util.Random;
 

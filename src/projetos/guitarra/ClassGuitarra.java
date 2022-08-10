@@ -1,4 +1,4 @@
-package projetos.guitarra;
+package guitarra;
 
 public class ClassGuitarra {
     public String cordas;

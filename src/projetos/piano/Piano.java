@@ -1,4 +1,4 @@
-package projetos.piano;
+package piano;
 
 public class Piano {
     public static void main(String[] args) {

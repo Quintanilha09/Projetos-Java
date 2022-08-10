@@ -1,4 +1,4 @@
-package projetos.computador;
+package computador;
 
 public class ClassComputador {
     private String modelo;

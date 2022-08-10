@@ -1,4 +1,4 @@
-package projetos.caneta;
+package caneta;
 public class ClassCaneta {
     String modelo;
     String cor;

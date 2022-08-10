@@ -1,4 +1,4 @@
-package projetos.computador;
+package computador;
 
 public class Computador {
     public static void main(String[] args) {

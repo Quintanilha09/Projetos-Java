@@ -1,4 +1,4 @@
-package projetos.luta;
+package luta;
 
 public class Lutador {
     public static void main(String[] args) {

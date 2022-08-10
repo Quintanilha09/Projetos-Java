@@ -1,4 +1,4 @@
-package projetos.guitarra;
+package guitarra;
 
 public class Guitarra {
     public static void main(String[] args) {

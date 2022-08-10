@@ -1,4 +1,4 @@
-package projetos.contabanco;
+package contabanco;
 
 public class ClassContaBanco {
     public int numConta;

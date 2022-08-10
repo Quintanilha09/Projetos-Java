@@ -1,4 +1,4 @@
-package projetos.controleremoto;
+package controleremoto;
 
 public class ClassControleRemoto implements InterfaceControle {
     //atributos
