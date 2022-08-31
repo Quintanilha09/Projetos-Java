@@ -4,7 +4,7 @@ public class ClassCaneta {
     String cor;
     float ponta;
     int carga;
-    boolean tampada;
+    Boolean tampada;
 
     void status() {
         System.out.println("Ponta: " + this.ponta);

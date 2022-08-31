@@ -20,5 +20,7 @@ public class ControleRemoto {
         controle2.ligarMudo();
         controle2.abrirMenu();
         controle2.fecharMenu();
+
+        
     }
 }

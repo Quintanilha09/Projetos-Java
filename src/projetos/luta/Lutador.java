@@ -35,5 +35,6 @@ public class Lutador {
         ClassLuta UFC03 = new ClassLuta();
         UFC03.marcarLuta(lutador[0], lutador[4]);
         UFC03.lutar();
+        
     }
 }
